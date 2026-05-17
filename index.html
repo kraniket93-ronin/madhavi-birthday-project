@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A digital archive celebrating Madhavi — marking the passage of another year for someone truly exceptional.">
+    <title>Happy Birthday Madhavi — A Digital Archive</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="preloader">
+        <div class="loader-label">With Love</div>
+        <div class="loader-words">
+            <span class="loader-word" data-word="0">Made</span>
+            <span class="loader-word" data-word="1">For</span>
+            <span class="loader-word" data-word="2">Madhavi</span>
+        </div>
+        <div class="loader-counter">000</div>
+        <div class="loader-track"><div class="loader-fill"></div></div>
+    </div>
+
+    <!-- Music Toggle -->
+    <button id="music-toggle" class="music-toggle" aria-label="Toggle Music">
+        <div class="music-bars">
+            <span></span><span></span><span></span><span></span>
+        </div>
+    </button>
+
+    <!-- Audio Element -->
+    <audio id="bg-music" preload="auto" loop>
+        <source src="Page 1 audio.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Navigation -->
+    <nav id="main-nav" class="navbar">
+
+        <div class="nav-links">
+            <a href="#the-day" class="nav-link" data-section="the-day">THE DAY</a>
+            <a href="#celebrant" class="nav-link" data-section="celebrant">CELEBRANT</a>
+            <a href="#memories" class="nav-link" data-section="memories">MEMORIES</a>
+            <a href="#wishes" class="nav-link" data-section="wishes">WISHES</a>
+        </div>
+        <div class="nav-hamburger" id="hamburger">
+            <span></span><span></span>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="mobile-menu">
+        <a href="#the-day" class="mobile-link" data-section="the-day">THE DAY</a>
+        <a href="#celebrant" class="mobile-link" data-section="celebrant">CELEBRANT</a>
+        <a href="#memories" class="mobile-link" data-section="memories">MEMORIES</a>
+        <a href="#wishes" class="mobile-link" data-section="wishes">WISHES</a>
+    </div>
+
+    <!-- ========== SECTION 1: HERO ========== -->
+    <section id="hero" class="section hero-section">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-title" data-animate="fade-up">
+                    <span class="hero-title-line title-solid">HAPPY</span>
+                    <span class="hero-title-line title-outline">BIRTHDAY</span>
+                    <span class="hero-title-line title-solid">MADHAVI</span>
+                </div>
+                <p class="hero-subtitle" data-animate="fade-up" data-delay="200">
+                    <em>A digital archive of a singular existence. Marking the passage of another year for someone truly exceptional.</em>
+                </p>
+                <div class="hero-meta" data-animate="fade-up" data-delay="400">
+                    <div class="meta-item">
+                        <span class="meta-label">ISSUE</span>
+                        <span class="meta-value">2026.04.08</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">FOR</span>
+                        <span class="meta-value">MADHAVI</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">STATUS</span>
+                        <span class="meta-value">CELEBRATING</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-images" data-animate="fade-left">
+                <div class="hero-img-collage">
+                    <div class="hero-img hero-img-tall">
+                        <img src="images/saari-main.jpg" alt="Madhavi in white saari" loading="eager">
+                    </div>
+                    <div class="hero-img-stack">
+                        <div class="hero-img hero-img-small">
+                            <img src="images/park-black.jpg" alt="Madhavi at the park" loading="eager">
+                        </div>
+                        <div class="hero-img hero-img-small">
+                            <img src="images/casual-steps.jpg" alt="Madhavi casual" loading="eager">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator" data-animate="fade-up" data-delay="600">
+            <div class="scroll-line"></div>
+            <span>SCROLL</span>
+        </div>
+    </section>
+
+    <!-- ========== SECTION 2: THE DAY ========== -->
+    <section id="the-day" class="section day-section">
+        <div class="section-container">
+            <div class="day-content">
+                <div class="day-left" data-animate="fade-right">
+                    <span class="section-label">001</span>
+                    <h2 class="section-title">
+                        <span class="title-solid">THE</span>
+                        <span class="title-outline">DAY</span>
+                    </h2>
+                    <div class="day-date-display">
+                        <span class="date-number">08</span>
+                        <div class="date-details">
+                            <span class="date-month">APRIL</span>
+                            <span class="date-year">2026</span>
+                        </div>
+                    </div>
+                    <p class="section-description">
+                        <em>Today the stars align once more to celebrate the day 
+                        you graced this world with your light. A day written in 
+                        constellations, whispered by the winds, and cherished by 
+                        every soul fortunate enough to know you.</em>
+                    </p>
+                </div>
+                <div class="day-right" data-animate="fade-left">
+                    <div class="day-image">
+                        <img src="images/chandelier.jpg" alt="Madhavi in chandelier hall" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SECTION 3: CELEBRANT (THE MUSE) ========== -->
+    <section id="celebrant" class="section muse-section">
+        <div class="section-container">
+            <div class="muse-content">
+                <div class="muse-left" data-animate="fade-right">
+                    <span class="section-label">002</span>
+                    <h2 class="section-title">
+                        <span class="title-solid">THE</span>
+                        <span class="title-outline">MUSE</span>
+                    </h2>
+                    <p class="section-description muse-poem">
+                        <em>Defining the essence of the moment through grace and intentionality.</em>
+                    </p>
+                    <div class="muse-poem-block" data-animate="fade-up" data-delay="200">
+                        <p>She walks in beauty, like the night</p>
+                        <p>Of cloudless climes and starry skies;</p>
+                        <p>And all that's best of dark and bright</p>
+                        <p>Meet in her aspect and her eyes.</p>
+                    </div>
+                    <div class="divider-line" data-animate="scale-x"></div>
+                    <div class="muse-attributes" data-animate="fade-up" data-delay="400">
+                        <div class="attribute">
+                            <span class="attr-label">ESSENCE</span>
+                            <span class="attr-value">Grace</span>
+                        </div>
+                        <div class="attribute">
+                            <span class="attr-label">SPIRIT</span>
+                            <span class="attr-value">Radiant</span>
+                        </div>
+                        <div class="attribute">
+                            <span class="attr-label">PRESENCE</span>
+                            <span class="attr-value">Luminous</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="muse-right" data-animate="fade-left">
+                    <div class="muse-image">
+                        <img src="images/fairy-lights.jpg" alt="Madhavi with fairy lights" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SECTION 4: MEMORIES (SLIDING GALLERY) ========== -->
+    <section id="memories" class="section memories-section">
+        <div class="gallery-header" data-animate="fade-up">
+            <span class="section-label">003</span>
+            <h2 class="section-title section-title-center">
+                <span class="title-solid">STILL</span>
+                <span class="title-outline">FRAMES</span>
+            </h2>
+            <p class="section-description section-desc-center">
+                <em>Moments frozen in time — each frame a universe of its own, 
+                holding memories that words could never fully capture.</em>
+            </p>
+        </div>
+        <div class="gallery-viewport" id="gallery-viewport">
+            <div class="gallery-stage" id="gallery-stage">
+                <div class="gallery-track" id="gallery-track">
+                    <div class="gallery-slide" data-caption="Golden Hour">
+                        <img src="images/yellow-dress.jpg" alt="Madhavi in yellow" loading="lazy">
+                    </div>
+                    <div class="gallery-slide" data-caption="The Portrait">
+                        <img src="images/saari-college.jpg" alt="Madhavi college saari" loading="lazy">
+                    </div>
+                    <div class="gallery-slide" data-caption="Timeless">
+                        <img src="images/red-lehenga.jpg" alt="Madhavi in red lehenga" loading="lazy">
+                    </div>
+                    <div class="gallery-slide" data-caption="Wanderlust">
+                        <img src="images/green-tree.jpg" alt="Madhavi by the green tree" loading="lazy">
+                    </div>
+                    <div class="gallery-slide" data-caption="Pure Joy">
+                        <img src="images/yellow-close.jpg" alt="Madhavi yellow close-up" loading="lazy">
+                    </div>
+                    <div class="gallery-slide" data-caption="Serenity">
+                        <img src="images/office.jpg" alt="Madhavi at office" loading="lazy">
+                    </div>
+                    <div class="gallery-slide" data-caption="Graceful Steps">
+                        <img src="images/casual-steps.jpg" alt="Madhavi walking" loading="lazy">
+                    </div>
+                    <div class="gallery-slide" data-caption="Chandelier Hall">
+                        <img src="images/chandelier.jpg" alt="Madhavi in chandelier hall" loading="lazy">
+                    </div>
+                    <div class="gallery-slide" data-caption="Fairy Lights">
+                        <img src="images/fairy-lights.jpg" alt="Madhavi with fairy lights" loading="lazy">
+                    </div>
+                    <div class="gallery-slide" data-caption="Maroon Elegance">
+                        <img src="images/maroon-dress.webp" alt="Madhavi in maroon dress" loading="lazy">
+                    </div>
+                    <div class="gallery-slide" data-caption="Park Silhouette">
+                        <img src="images/park-black.jpg" alt="Madhavi at the park" loading="lazy">
+                    </div>
+                    <div class="gallery-slide" data-caption="White Saari">
+                        <img src="images/saari-main.jpg" alt="Madhavi in white saari" loading="lazy">
+                    </div>
+                    <div class="gallery-slide" data-caption="Side Profile">
+                        <img src="images/saari-side.jpg" alt="Madhavi side profile" loading="lazy">
+                    </div>
+                    <div class="gallery-slide" data-caption="Golden Light">
+                        <img src="images/yellow-back.jpg" alt="Madhavi in golden light" loading="lazy">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- ========== SECTION 5: WISHES (SEND LIGHT) ========== -->
+    <section id="wishes" class="section wishes-section">
+        <div class="section-container">
+            <div class="wishes-content">
+                <div class="wishes-header" data-animate="fade-up">
+                    <span class="section-label">004</span>
+                    <h2 class="section-title section-title-center">
+                        <span class="title-solid">SEND</span>
+                        <span class="title-outline">LIGHT</span>
+                    </h2>
+                </div>
+                <div class="wishes-poem" data-animate="fade-up" data-delay="200">
+                    <p class="wish-line">May your days be painted in shades of gold,</p>
+                    <p class="wish-line">May your story be one that's beautifully told.</p>
+                    <p class="wish-line">May laughter echo in every room you grace,</p>
+                    <p class="wish-line">And joy illuminate your radiant face.</p>
+                </div>
+                <div class="wishes-grid" data-animate="fade-up" data-delay="400">
+                    <div class="wish-card">
+                        <p class="wish-text">"You are not just a year older — you are a year more extraordinary. 
+                        The world is brighter because you chose to be in it."</p>
+                        <span class="wish-author">— With Love</span>
+                    </div>
+                    <div class="wish-card">
+                        <p class="wish-text">"Like a garden in full bloom, you bring color, fragrance, and life 
+                        to everyone around you. Happy Birthday, beautiful soul."</p>
+                        <span class="wish-author">— Forever Yours</span>
+                    </div>
+                    <div class="wish-card">
+                        <p class="wish-text">"Stars are beautiful, but they cannot compare to the light you carry 
+                        within. May this year bring you everything your heart desires."</p>
+                        <span class="wish-author">— An Admirer</span>
+                    </div>
+                </div>
+                <div class="wishes-closing" data-animate="fade-up" data-delay="600">
+                    <div class="closing-divider"></div>
+                    <h3 class="closing-text">
+                        <span class="title-solid">HAPPY</span>
+                        <span class="title-outline">BIRTHDAY</span>
+                    </h3>
+                    <p class="closing-name">Madhavi</p>
+                    <p class="closing-date">08 · 04 · 2026</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page Navigation Footer -->
+    <footer class="page-footer">
+        <div class="footer-content">
+            <div class="footer-nav">
+                <a href="page2.html" class="footer-next-page">
+                    <span class="footer-label">CONTINUE THE CELEBRATION</span>
+                    <span class="footer-arrow">→</span>
+                </a>
+            </div>
+            <div class="footer-credits">
+                <span>Crafted with love for Madhavi</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
